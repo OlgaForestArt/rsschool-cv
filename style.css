@@ -75,12 +75,12 @@ html {
             background-color: #e7e7e4;
             padding: 20px;
         }
-             html main h1 {
+             html main h1, html main h2 {
                 font-weight: normal;
             }
-            html main h2 {
-                font-weight: normal;
-            }
+		html main code span{
+			margin: 0 0 0 40px;
+		}
             html footer a {
                 box-sizing: border-box;
             }
