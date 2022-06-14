@@ -1,0 +1,89 @@
+:root {
+    --main-color: #FBFCDE;
+    --body: #ffffff;
+  }
+  
+html {
+	width: 100%;
+	background-color: var(--main-color);
+    font-size: 18px
+}
+* {
+    box-sizing: border-box;
+}
+    html body {
+        font-family: 'Joan', serif;
+        font-family: 'Share Tech Mono', monospace;
+        background-color: var(--body);
+        width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+        html body a {
+            color: #000;
+        }
+        html body a:hover {
+            color: #ff0000;
+        }
+        html body header {
+            width: 100%;
+            display: block;
+            overflow: hidden;
+        }
+            html body header img {
+                width: 240px;
+                float: left;
+            }
+            html body header ul {
+                display: block;
+                width: 240px;
+                float: left;
+                margin: 0;
+            }
+                html body header ul li {
+                    line-height: 31px;
+                }
+                html body header ul li strong {
+                    font-size: larger;
+                }
+            html body header p {
+                width: 480px;
+                float: left;
+                margin: 0;
+                padding: 0 0 0 40px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            html body nav {
+                width: 100%;
+                display: block;
+            }
+                html body nav ul {
+                    padding: 20px 0;
+                    margin: 0;
+                    overflow: hidden;
+                }
+                    html body nav ul li {
+                        float: left;
+                        display: inline-block;
+                        margin: 0 40px 0 0;
+                    }
+        html main {
+            width: 100%;
+            display: block;
+            overflow: hidden;
+            background-color: #e7e7e4;
+            padding: 20px;
+        }
+             html main h1, html main h2 {
+                font-weight: normal;
+            }
+		html main code span{
+			margin: 0 0 0 40px;
+		}
+            html footer a {
+                box-sizing: border-box;
+            }
+                html footer a img {
+				width: 128px;
+			    }
